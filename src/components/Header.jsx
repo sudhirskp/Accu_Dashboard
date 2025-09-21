@@ -5,7 +5,7 @@ import SearchBar from './SearchBar';
 export default function Header() {
 	return (
     <header className="flex items-center justify-between px-8 py-4 bg-white shadow-lg border-b">
-      {/* Left: Title & Breadcrumb */}
+      {/* Left: Title */}
       <div className="flex flex-col">
         <span className="text-xs text-gray-400 font-medium tracking-wide mb-1">Home &gt; <span className="text-blue-700 font-semibold">Dashboard</span></span>
         <h1 className="text-2xl font-bold text-blue-900 tracking-tight">Dashboard V2</h1>

@@ -47,7 +47,7 @@ export default function AddWidgetModal({ category, onClose }) {
       <div className="fixed inset-y-0 right-0 pl-10 max-w-full flex">
         <div className="w-screen max-w-md">
           <div className="h-full flex flex-col bg-white shadow-xl">
-            {/* Header */}
+            {/* {Header of my dashboard } */}
             <div className="flex items-center justify-between px-6 py-4 border-b border-gray-200">
               <h2 className="text-lg font-medium text-gray-900">Add Widget</h2>
               <button 
@@ -59,14 +59,14 @@ export default function AddWidgetModal({ category, onClose }) {
             </div>
 
             <div className="flex-1 overflow-y-auto">
-              {/* Description */}
+              {/* Description of widget */}
               <div className="px-6 py-4">
                 <p className="text-sm text-gray-600">
                   Personalise your dashboard by adding the following widget
                 </p>
               </div>
 
-              {/* Widget Type Selector */}
+              {/* Widget Type */}
               <div className="px-6 flex gap-4 border-b border-gray-200 pb-4">
                 {widgetTypes.map(type => (
                   <button
@@ -83,7 +83,7 @@ export default function AddWidgetModal({ category, onClose }) {
                 ))}
               </div>
 
-              {/* Widget Form */}
+              {/* Widget Form section */}
               <div className="px-6 py-4 space-y-4">
                 <div>
                   <label htmlFor="widgetName" className="block text-sm font-medium text-gray-700 mb-1">
@@ -122,7 +122,7 @@ export default function AddWidgetModal({ category, onClose }) {
               </div>
             </div>
 
-            {/* Footer */}
+            {/* Footer of my dashboard */}
             <div className="flex justify-end gap-3 px-6 py-4 border-t border-gray-200">
               <button
                 onClick={onClose}
