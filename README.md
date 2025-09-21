@@ -2,6 +2,14 @@
 
 A modern React-based dashboard application that allows users to manage and organize widgets across different categories. Built with React, Redux Toolkit, Tailwind CSS, and Vite.
 
+## Screenshots
+
+### Dashboard Interface
+![Dashboard Interface](./src/public/my-dash.png)
+
+### Add Widget Modal
+![Add Widget Modal](./src/public/my-add-wid.png)
+
 ## Features
 
 - 💠 Dynamic widget management system
