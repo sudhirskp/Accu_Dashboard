@@ -2,6 +2,8 @@
 
 A modern React-based dashboard application that allows users to manage and organize widgets across different categories. Built with React, Redux Toolkit, Tailwind CSS, and Vite.
 
+🚀 **[Live Demo](https://accu-dashboard.netlify.app)**
+
 ## Screenshots
 
 ### Dashboard Interface
